@@ -8,3 +8,5 @@ The top level function is WriteToccata. with the music being supplied by the fun
 My ability to read music is somewhat lacking so the rendition is somewhat poor with a few "bum notes", which I will correct as soon as I can work out the correct notes and timings.
 
 The function Toccata will play the file produced by WriteToccata via a ⎕NA call to PlaySound. The function Stop will stop PlaySound in its tracks.
+
+Still to do: Fix "pops" and "crackels" between notes due to phase missalignment.
