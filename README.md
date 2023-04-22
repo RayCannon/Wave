@@ -1,12 +1,10 @@
 # Wave
-Generate simple Waveform Audio File Format  (.WAV) files from APL and play them 
+Generate a Waveform Audio File Format (.WAV) files from APL and then play it. 
 
 In the file "ToccataDm.dws" is a Dyalog APL (Version 18.2) workspace with all the functions required to build a ".WAV" file which can play the opening bars from J.S.Bach's Toccata and Fugue in Dm.
 
-The top level function is WriteToccata. with the music being supplied by the function TuneD. The file can be played bt MS Media player 
-
-My ability to read music is somewhat lacking so the rendition is somewhat poor with a few "bum notes", which I will correct as soon as I can work out the correct notes and timings.
+The top level function is "WriteToccata" with the music being supplied by the function TuneTocatta. The file produced can be played by MS Media player.
 
 The function Toccata will play the file produced by WriteToccata via a ⎕NA call to PlaySound. The function Stop will stop PlaySound in its tracks.
 
-Still to do: Fix "pops" and "crackels" between notes due to phase missalignment.
+My ability to read music is somewhat lacking so the rendition is poor with a few "bum notes", which I will correct as soon as I can work out the correct notes and timings.
